@@ -1,0 +1,31 @@
+.contact_info, .margin-left_15 {
+	margin-left: 15px;
+}
+body {	
+	background-color: #eee;
+	
+}
+.start {
+	background-color: #fff;
+	width: 400px;
+	margin: 5px auto;  
+	padding: 50px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.avatar {
+	text-align: center;
+	margin-left: 0px;
+}
+img {
+	width: 140px;	
+}
+.name {
+	text-align: center;
+	margin-top: 0px;
+}
+li, .contact_info {
+	line-height: 25px;
+}
+.border-bottom {
+	border-bottom: 1px solid black;
+}
