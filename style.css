@@ -1,4 +1,13 @@
-.contact_info, .margin-left_15 {
+.student{
+	margin-left: 15px;
+}
+.header-of-the-list{
+	margin-left: 15px;
+}
+.telefon-number{
+	margin-left: 15px;
+}
+.anchor-to-vk{
 	margin-left: 15px;
 }
 body {	
@@ -16,14 +25,16 @@ body {
 	text-align: center;
 	margin-left: 0px;
 }
-img {
-	width: 140px;	
-}
+
 .name {
 	text-align: center;
 	margin-top: 0px;
 }
-li, .contact_info {
+.contact-info {
+	line-height: 25px;
+	margin-left: 15px;
+}
+li {
 	line-height: 25px;
 }
 .border-bottom {
