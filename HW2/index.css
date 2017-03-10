@@ -110,7 +110,7 @@ body {
 	border: 1px solid #c8c8c8;
 	width: 100%;
 	display: flex;
-	width: 678px;
+	width: 694px;
 	height: 400px;
 }
 .photo {
@@ -210,6 +210,16 @@ body {
 }
 .menu__item--float:first-child:hover{
 	margin-left: -1px;
+
+}
+#product {
+margin-left: 13px;
+}
+#our {
+margin-left: 15px;
+}
+#connect{
+margin-left: 14px;
 }
 
 
