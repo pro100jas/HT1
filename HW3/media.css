@@ -1,0 +1,23 @@
+@media (max-width: 1120px) {
+	.subscription {
+		flex-direction: column;
+		min-height: 130px;
+	}
+	.subscription__text {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.preview__centre {
+		display: flex;
+		flex-direction: column;
+	}
+	.preview__info {
+		width: 100%;
+		margin: 530px auto 0;
+	}
+}
+@media (max-width: 990px) {
+	.container {
+	width: 45%;
+	}
+}

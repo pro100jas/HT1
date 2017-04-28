@@ -1,0 +1,39 @@
+.preview__page1 {
+	animation: animation-page1 4s 1 ease-in-out;
+}
+@keyframes animation-page1 {
+  0% { 
+    opacity: 0; 
+  } 
+  33% { 
+    opacity: 1;
+  }
+}
+.preview__page2 {
+	animation: animation-page2 4s 1 ease-in-out;
+}
+@keyframes animation-page2 {
+  0% { 
+    opacity: 0; 
+  } 
+  33% {
+  	opacity: 0;
+  }
+  66% { 
+    opacity: 1;
+  }
+}
+.preview__page3 {
+	animation: animation-page3 4s 1 ease-in-out;
+}
+@keyframes animation-page3 {
+  0% { 
+    opacity: 0; 
+  }
+  66% {
+  	opacity: 0;
+  } 
+  100% { 
+    opacity: 1;
+  }
+}
