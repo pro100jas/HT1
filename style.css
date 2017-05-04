@@ -1,0 +1,42 @@
+.student{
+	margin-left: 15px;
+}
+.header-of-the-list{
+	margin-left: 15px;
+}
+.telefon-number{
+	margin-left: 15px;
+}
+.anchor-to-vk{
+	margin-left: 15px;
+}
+body {	
+	background-color: #eee;
+	
+}
+.start {
+	background-color: #fff;
+	width: 400px;
+	margin: 5px auto;  
+	padding: 50px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.avatar {
+	text-align: center;
+	margin-left: 0px;
+}
+
+.name {
+	text-align: center;
+	margin-top: 0px;
+}
+.contact-info {
+	line-height: 25px;
+	margin-left: 15px;
+}
+li {
+	line-height: 25px;
+}
+.border-bottom {
+	border-bottom: 1px solid black;
+}
