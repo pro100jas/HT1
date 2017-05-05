@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		// 1 variant
+		// function SumTo(n){
+		// 	var result = 0;
+		// 	for(var i = 1; i <= n; i++){
+		// 		result += i
+		// 	}
+		// 	return result;
+		// }
+
+		// alert(SumTo(100));
+
+		// variant 2
+		// function SumTo1(n) {
+		// 	  if (n != 1) {
+		// 	    return n + SumTo1(n-1);
+		// 	  } else {
+		// 	    return n;
+		// 	  }
+		// 	}
+
+		// alert(SumTo1(100));
+
+		// variant 3
+		// function SumTo2(n){
+		// 	return (1 + n)/2 * n;
+		// }
+
+		// alert(SumTo2(100));
+
+
+		//самый быстрый 3 вариант, потому, что там нет циклов и разветвлений.
+		//самый медленный с рекурсией, потому, что она обязана хранить очень много контекстов в памяти.
+		//нельзя, потому, что браузеры расчитаны на 10000 вложенных вызовов
+	
+		
+		// function factorial(n){
+		// 	if (n != 1){
+		// 		return n * factorial(n-1);
+		// 	} else{
+		// 		return 1;
+		// 	}
+		// }
+
+		// alert(factorial(5));
+
+
+		// this one was done only by myself
+		// function fib(n){
+		// 	if(n <= 2){
+		// 		return 1;
+		// 	} else{
+		// 		return fib(n-1) + fib(n-2);
+		// 	}
+		// }
+
+		// alert(fib(1));
+
+
+		// this one was done with help
+		// function fib1(n){
+		// 	var firstNumber = 1;
+		// 	var secondNumber = 1;
+		// 	for (var i = 3; i <= n; i++){
+		// 		var thirdNumber = firstNumber + secondNumber;
+		// 		firstNumber = secondNumber;
+		// 		secondNumber = thirdNumber;
+		// 	}
+		// 	return secondNumber;
+		// }
+
+		// alert(fib1(77));
+
+	</script>
+</body>
+</html>
