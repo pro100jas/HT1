@@ -1,8 +1,0 @@
-1. a is incremented by 1 and then alerted; b is alerted and then incremented by 1
-   a and b are already 2; a is firstly incremented by 1, then we add 2; we add 2 to b and then b is incremented by 1
-   a and b are already 3 and then they're incremented
-
-2. The answer is x = 5. 
-   a *= 2 means the same as a = a * 2;
-   a * 2 = 4, then we add 1
-
