@@ -1,0 +1,169 @@
+a {
+	text-decoration: none;
+}
+.container {
+	position: relative;
+}
+.top-background {
+	background-color: #128aa7;
+	min-height: 30px;
+	border-bottom: 1px solid #5ef0ff;
+}
+.middle-background {
+	background: linear-gradient(180deg, #12cde1 0%, #fff 100%);
+	min-height: 147px;
+}
+.bottom-background {
+	background: linear-gradient(180deg, #40c5d3 0%, #0c739f 100%);
+	min-height: 850px;
+}
+.wrapper {
+	position: absolute;
+	width: 80%;
+	margin: auto;
+	left: 50%;
+	transform: translate(-50%);
+	top: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+/****************/
+.header {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 25px;
+	color: #128aa7;
+	line-height: 20px;
+	height: 177px;
+}
+.header__logo {
+	position: relative;
+}
+.header__image {
+	position: absolute;
+	bottom: -10px;
+}
+.header__moto {
+	margin-top: 95px;
+	margin-left: 50px;
+	color: #128aa7;
+}
+.header__info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.header__countries {
+	display: flex;
+	margin-top: 15px;
+}
+.header__countries--item {
+	margin-left: 16px;
+	font-size: 12px;
+	text-decoration: underline;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header__countries--link {
+	color: #128aa7;
+}
+.header__countries--india {
+	width: 41px;
+	height: 41px;
+	background: url(img/sprite.png) no-repeat;
+}
+.header__countries--nepal {
+	width: 41px;
+	height: 41px;
+	background: url(img/sprite.png) -41px 0 no-repeat;	
+}
+.header__countries--tibet {
+	width: 41px;
+	height: 41px;
+	background: url(img/sprite.png) -84px 0 no-repeat;	
+}
+.header__countries--butan {
+	width: 41px;
+	height: 41px;
+	background: url(img/sprite.png) -126px 0 no-repeat;	
+}
+.header__countries--shrylanka {
+	width: 41px;
+	height: 41px;
+	background: url(img/sprite.png) -168px 0 no-repeat;	
+}
+.header__countries--maldives {
+	width: 41px;
+	height: 41px;
+	background: url(img/sprite.png) -210px 0 no-repeat;	
+}
+/**********************/
+.image {
+	height: 237px;
+	background-size: cover;
+	border-bottom: 1px solid #108eaf;
+	background-image: url(img/sea.jpg);
+}
+/******************/
+.menu {
+	background-color: #343434;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px;
+	border-bottom: 1px solid;
+}
+.menu__link {
+	color: #fff;
+	font-size: 17px;
+}
+.menu__link--dropdown:after {
+	content: url(img/tri.png);	
+}
+/***********************/
+.article {
+	display: flex;
+	color: #424c43;
+	font-size: 20px;
+	text-align: center;
+	min-height: 550px;
+}
+.article__info {
+	width: 25%;
+	background-color: #edeef0;
+	border-right: 1px solid #c7cacf;
+	border-left: 1px solid #c7cacf;	
+}
+.article__content {
+	width: 50%;
+	background-color: #fff;
+}
+.article__news {
+	width: 25%;
+	background-color: #edeef0;
+	border-right: 1px solid #c7cacf;
+	border-left: 1px solid #c7cacf;
+}
+.article__text {
+	border-bottom: 1px solid #c7cacf;
+	padding: 10px;
+	min-height: 300px;
+
+}
+.acticle__news{
+	min-height: 450px;
+}
+
+.article__text {
+	min-height: 450px;
+}
+
+
+/******************/
+.copyright {
+	color: #fff;
+	text-align: center;
+	background-color: #0c739f;
+	padding: 5px;
+}
+
